@@ -27,7 +27,7 @@ export default function HomePage() {
     let slideIndex = 0;
     //const [vIndex, setVIndex] = useState(0);
     //let vIndex = 0;
-    const vIndex = useRef(0);
+    const vIndex = useRef(-1);
     const slideContainer = useRef();
     const dotContainer = useRef();
     //const = ReactDOM.findDOMNode(Layout).getElementsByClassName('mySlides') // Returns the elements
@@ -84,6 +84,7 @@ export default function HomePage() {
 
     useEffect(() => {
         if(runSlideshow){
+            setVisibility();
             let myIntv = setInterval(setVisibility, 2000);
             return () => clearInterval(myIntv);
 
