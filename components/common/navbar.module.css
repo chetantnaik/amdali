@@ -1,0 +1,22 @@
+.header {
+    background: linear-gradient(#f64c18, #ee9539);
+    width: auto;
+    padding: 20px;
+    margin: none;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header>span {
+    padding: 10px;
+
+}
+
+.headerlist {
+    text-decoration: none;
+    color: #fce4e4;
+    font-weight: bold;
+    font-family: Times New Roman;
+    font-size: 18px;
+}

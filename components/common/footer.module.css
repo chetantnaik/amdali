@@ -1,0 +1,33 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    background-color: rgba(250, 198, 146, 0.5);
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridItems {
+    text-align: center;
+    max-height: 500px;
+    padding: 1px;
+}
+
+@media only screen and (max-width: 912px) {
+    .footer {
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .footer {
+        height: 300px;
+    }
+    .gridContainer {
+        grid-template-columns: auto auto;
+    }
+}

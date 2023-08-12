@@ -1,0 +1,31 @@
+.sectionHeader {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff8dc78;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 27px;
+    color: #413939;
+    text-align: center;
+}
+
+.sectionContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.sectionElem{
+    background-color: #bfa74778;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 414px) {
+    .sectionContainer{
+        grid-template-columns: auto auto;
+    }
+}

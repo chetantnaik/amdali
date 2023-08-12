@@ -1,0 +1,106 @@
+/*.imagediv {
+    position: relative;
+    width: 50vw;
+    height: 40vw;
+}*/
+
+.slideshow_container {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+}
+
+
+
+.play{
+    width:50;
+    height:50;
+    position:absolute;
+    left:48%;
+    top:40%;
+    z-index:1;
+    border-style:solid;
+    box-sizing:border-box;
+    border-width: 25px 0px 25px 50px;
+    border-color:transparent transparent transparent rgba(255, 255, 255, 1);
+    animation:fading 5s infinite
+}
+
+@keyframes fading{
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity:0}
+}
+
+/* On smaller screens, decrease text size */
+/*@media only screen and (max-width: 912px) {
+    .slideshow_container {
+        height: 50vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    .play{
+        top:20%;
+    }
+}*/
+
+/*.slideshow_container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}*/
+
+.mySlides {
+    display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dotDiv {
+    text-align: center;
+    padding: 10px;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width:653px){
+    .slideshow_container{
+        height: 40vh;
+    }
+    .play{
+        top:30%;
+    }
+}
+
+@media only screen and (max-width:414px){
+    .play{
+        top:25%;
+    }
+}

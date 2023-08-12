@@ -1,0 +1,18 @@
+.sectionHeader {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff8dc78;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 27px;
+    color: #413939;
+    text-align: center;
+}
+
+.subHeading{
+    font-size: 18px;
+    font-weight: 500;
+    color: #7a4242;
+    padding: 8px;
+    margin: 8px;
+}
