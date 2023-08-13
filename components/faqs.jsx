@@ -13,7 +13,7 @@ export default function FAQS() {
 
         &#9989; Observe absolute silence and chant “Devatas name”, inside the temple.<br />
 
-        &#9989; Respect ancient customs and usages while at temple complex.<br />
+        &#9989; Respect ancient customs and traditions while at temple complex.<br />
 
         &#9989; Respect and promote religious sentiments among co-pilgrims.<br />
 
