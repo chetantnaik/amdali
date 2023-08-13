@@ -98,7 +98,8 @@ export default function HomePage() {
         let slides = [...slideContainer.current.children];
         let dots = [...dotContainer.current.children];
         //console.log(vIndex.current);
-        if (vIndex.current > slides.length - 1) {
+        //if (vIndex.current > slides.length - 1) {
+        if (vIndex.current > slides.length - 1 || vIndex.current < 0) {
             vIndex.current = 0;
         }
         for (let i = 0; i < slides.length; i++) {
